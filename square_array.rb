@@ -1,8 +1,8 @@
-def square_array(numbers)
+def square_array(array)
     #square_array = [numbers]
     count = 0 
    # square_array.each do |number|
-   while count < numbers.length do 
+   while count < array.length do 
     square_array[count] = number
     square_array=Array.new 
     sqare_array << (number**2)
