@@ -1,11 +1,9 @@
 def square_array(array)
     #square_array = [numbers]
     numbers = []
-    count = 0 
    # square_array.each do |number|
-   while count < numbers.length do 
+   numbers.each do |number|
     numbers[count] << (number**2)
-    count+=1 
     end
   end 
   
