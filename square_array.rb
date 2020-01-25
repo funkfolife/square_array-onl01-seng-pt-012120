@@ -4,7 +4,7 @@ def square_array(numbers)
     square_array.each do |number|
     square_array[count] = number
     square_array=Array.new 
-    sqare_array.push
+    sqare_array
     count+=1 
     end 
   end 
