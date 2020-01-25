@@ -1,13 +1,12 @@
 def square_array(array)
     #square_array = [numbers]
+    numbers = []
     count = 0 
    # square_array.each do |number|
-   while count < array.length do 
-    square_array[count] = number
-    square_array=Array.new 
-    sqare_array << (number**2)
+   while count < numbers.length do 
+    numbers[count] << (number**2)
     count+=1 
-    end 
+    end
   end 
   
 # def square_array(numbers)
